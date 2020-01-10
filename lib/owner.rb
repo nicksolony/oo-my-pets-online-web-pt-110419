@@ -1,13 +1,17 @@
 class Owner
   attr_reader :name, :species
+<<<<<<< HEAD
   @@all = []
   @@count = 0
+=======
+>>>>>>> ce3d2da87d1b4794a66c5c7e948e9f0c3baf42ed
   
   
   def initialize (name)
     
     @name = name
     @species = "human"
+<<<<<<< HEAD
     @@all << self
     @@count +=1
     
@@ -66,5 +70,11 @@ class Owner
   end
   
   
+=======
+    
+  end
+  
+
+>>>>>>> ce3d2da87d1b4794a66c5c7e948e9f0c3baf42ed
   
 end
